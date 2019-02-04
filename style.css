@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/* Header */
+.header{
+    background: url(images/covers/cover.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 10px;
+    /*background-attachment: fixed;*/
+    
+}
+/*Header completed*/
+/*Navigation bar started */
+.logo{
+    height: 40px;
+}
+.btn-outline-primary{
+    color:black;
+    font-size: 17px;
+    border-color: #66ccff;
+}
+.btn-outline-primary:hover{
+    background-color: #66ccff;
+}
+.navbar-nav{
+    font-size: 17px;
+}
+.navbar-nav li{
+    margin-right: 30px;
+    padding: 5px 0;
+}
+.navbar-nav li:hover{
+    border-bottom: 1px solid #66ccff;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+/* Navigation completed */
+/*Header first division */
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron h1{
+    font-size: 60px;
+}
+.col-md-3{
+    text-align: center;
+}
+.icons p{
+    font-size: 15px;
+}
+.container{
+    max-width: 1000px;
+}
+/* Header line completed*/
+/*images of header*/
+.choice{
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top:30px;
+}
+/*image of header*/
+/*buttons*/
+#btn{
+    border-color: #66ccff;
+    color:#000;
+    border:1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 25px;
+    letter-spacing: 1.3px;
+}
+#btn:hover{
+    background-color: #66ccff;
+    color:white
+}
+#btn1{
+    background-color: #66ccff;
+    color:#fff;
+    border:1px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 25px;
+    letter-spacing: 1.3px;
+}
+#btn1:hover{
+    background-color: transparent;
+    color:#000;
+}
+/*button completed */
+
+/*main page*/
+.work{
+    background: url(images/Covers/cover4.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+#btnfreelancer{
+   /* background-color: white;*/
+    color:#fff;
+    
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px 10px;
+    letter-spacing: 1.3px;
+}
+#btn2{
+    
+    padding: inherit;
+    font-size: 16px;
+    
+    color: black;
+    text-decoration: none;
+} 
+#btn2:hover{
+    background-color: transparent;
+    color:#000;
+    border-color: black;
+}
+#workopt{
+    background-color: #66ccff;
+    color:#fff;
+    
+    border:1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#workopt:hover{
+    background-color: transparent;
+    color:black;
+    border-color: black;
+}
+.col-md-3{
+    /*margin-top: 10px;*/
+    
+    
+}
+.mainheading{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.icons{
+    padding: 20px;
+}
+.main2{
+    background-color: azure;
+    text-align: center;
+    padding: 25px;
+}
+
+/*end of main*/
+/*Footer Styling*/
+.footer{
+    background-color: lightgrey;
+    padding:10px 0;
+    font-size: 15px;   
+    color: #000;
+}
+@media(max-width:768px){
+    .bodyimage{
+        height:70px;
+    }
+}
